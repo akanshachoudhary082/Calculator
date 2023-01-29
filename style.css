@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Poppins:ital,wght@0,300;0,600;0,700;1,100;1,500;1,600;1,700;1,800;1,900&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Caveat',sans-serif;
+  font-size: 20px;
+  text-shadow: 2px 2px 8px #226b80;
+
+}
+/*-----------BUTTON-----------*/
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 3px solid black;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size:25px;
+  font-weight: bold;
+  background-color:  #92A8D1;
+  
+}
+.row{
+  margin: 8px 0;
+}
+.row > #first {
+  background: #F08080;
+  border: 4px solid #DC143C;
+  color: white;
+}
+.row .button:last-child{
+  background-color: yellowgreen;
+  border: 4px solid darkgreen;
+}
+ .row .first2{
+   background-color: yellowgreen;
+  border: 4px solid darkgreen;
+}
+/*--------------------------INPUT---------------------*/ 
+
+.row input{
+  font-size: 23px;
+  margin: 3px 3px;
+  padding-left: 16px;
+  padding-top:15px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+
+/*------------------------MEDIA QUERY--------------------*/ 
+
+@media screen and (max-width: 550px){
+  .button{
+    width:57px;
+    border-radius: 25px;
+  }
+
+  .row input{
+    width:243px;
+  }
+}
+
+
